@@ -69,7 +69,7 @@ class Car:
             theta=z[2]
             return [self.__velocity*np.cos(theta),
                     self.__velocity*np.sin(theta),
-                    self.__velocity*np.tan(steering_angle+np.deg2rad(1))/self.__length]
+                    self.__velocity*np.tan(steering_angle+np.deg2rad(1))/self.__length] # add disturbance w
 
         sol = spi.solve_ivp(bicycle_model, 
                             [0, dt],

@@ -98,7 +98,7 @@ x_p =np.zeros((4,n_points+1,))
 y_p =np.zeros((4,n_points+1,))
 h = (b-a)/n_points
 kp=0.1
-for a in range(3,7):
+for a in range(4):
     kp=kp+0.1 # increase kp at 0.1 for each loop
     brain = PidController(kp=kp, kd=0, ki=0, ts=0.025)
     henry = Car(length=2.3, velocity=5)

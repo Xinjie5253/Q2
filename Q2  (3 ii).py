@@ -110,5 +110,4 @@ plt.ylabel('y')
 
 plt.plot(x_tra,y_tra)
 plt.legend((''))
-print(y_tra)
 plt.show()

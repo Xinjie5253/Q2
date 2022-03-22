@@ -93,6 +93,7 @@ henry = Car(length=2.3, velocity=5)
 a = 0
 b = 50
 n_points = 5000
+# create array to store data
 t=np.zeros((n_points+1,))
 angle=np.zeros((n_points+1,))
 h = (b-a)/n_points

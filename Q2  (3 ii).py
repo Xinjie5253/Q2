@@ -92,6 +92,7 @@ henry = Car(length=2.3, velocity=5)
 
 
 n_points = 2000
+# create arrays to store data
 x_tra =np.zeros((n_points+1,))
 y_tra=np.zeros((n_points+1,))
 brain = PidController(kp=3, kd=5, ki=0.12, ts=0.025)
